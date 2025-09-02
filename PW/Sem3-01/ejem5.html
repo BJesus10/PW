@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>...::Aprendo JavaScript ::...</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Mi primer lab del curso" />
+    <meta name="keywords" content="programacion, web, html, ulima" />
+    <link rel="icon" href="logo1.ico" type="image/vnd.microsoft.icon" size="32x32" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/lab03.css" type="text/css" />
+
+</head>
+
+<body>
+    <h1>Manejo de Arrays</h1>
+         <script>
+            
+            //Declaracion de array
+            var a0 = new Array();//Arreglo vacio
+            var a1 = new Array(5);//Arreglo con 5 elementos
+            
+            //Inicializar
+            for(let i=0; i<a1.length; i++){
+                a1[i] = i;
+            }
+            document.writeln("<p>El arreglo"+ a1+ "</p>")
+
+            //Todo junto
+
+            var a3 = [2,4,6,8,10];
+
+            //Tipo especial de for
+            for(let elemento in a3){
+                document.writeln("<p>ELEMENTO = "+ elemento +" "+ a3[elemento]+ "</p>");
+            }
+
+            //Juntar elementos
+            document.writeln("<p>JUNTAR ELEMENTOS = "+ a3.join("---")+"</p>");
+
+            //Posicion de un Elemento
+            document.writeln("<p>POSICION DE ELEMENTO = "+ a3.indexOf(6)+ "</p>");
+
+            //Ordenar Arreglos
+            a4 = [2,4,6,8,1,2,3,5,7];
+
+            document.writeln("<p>Arreglo Antes = "+ a4 + "</p>");
+            document.writeln("<p>Arreglo Despues = "+ a4.sort() + "</p>");
+
+            a5 = ["pera", "manzana","coco","fresa"];
+
+            document.writeln("<p>Arreglo Antes = "+ a5 + "</p>");
+            document.writeln("<p>Arreglo Despues = "+ a5.sort() + "</p>");
+
+            // Reverse
+            document.writeln("<p>Reverse = "+ a5.reverse() + "</p>");
+
+            // Otra Forma : PROGRAMACION FUNCIONAL
+            document.writeln("<p>Orden DESC = "+ a5.reverse(function(a,b){return b-a}) + "</p>");
+            document.writeln("<p>Orden ASC = "+ a5.reverse(function(a,b){return a-b}) + "</p>");
+
+
+
+
+
+
+
+         </script>
+</body>
+
+</html>

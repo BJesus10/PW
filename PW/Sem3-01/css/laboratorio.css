@@ -1,0 +1,21 @@
+* {
+    font-family: 'Zen Dots', cursive;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+   color:white;
+   text-align: center;
+   font-size: 60px;
+}
+
+p {
+    color : green;
+}
+
+p.x {
+    color: red;
+}
