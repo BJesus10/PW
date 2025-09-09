@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>..:Práctica:..</title>
+    <link rel="stylesheet" href="./css/20222411.css">
+</head>
+<body>
+    <h1>Práctica Calificada 1</h1>
+    <h5>Alumno: ABC XYZ </h5>
+    <h5>Código: 20222411</h5>
+
+    <div id="contenido">
+        <h2>Tablita</h2>
+    <div id="rpta"></div>
+    
+    </div>
+    <div id="formulario">
+        <h2>Parámetros</h2>
+        <form>
+            <label>Tamaño de tabla</label>
+            <br>
+            <input type="number" id="numero"/>
+            <br>
+            <label>Forma de Generar Colores
+                <br>
+                <input type="radio" name="rcolor" value="M">Manual</input>
+                <input type="radio" name="rcolor" value="A">Aleatorio</input>
+            </label>
+            <br>
+            <label>Color de Bordes</label>
+            <input type="color" id="bcolor"/>
+            <br>
+            <label>Color de los contenidos</label>
+            <input type="color" id="ccolor"/>
+            <br>
+            <input type="button" class="boton" value="Generar" onclick="generarTabla();"/>
+        </form>
+
+
+
+    </div>
+    <script src="./js/20222411.js">
+        
+    </script>
+</body>
+</html>
