@@ -1,0 +1,45 @@
+/*
+Alumno: ABC XYZ
+Código: 20222411
+*/
+
+.boton {
+    padding: 10px;
+    background-color: #343434;
+    color: #FDFDFD;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#contenido{
+    width: 70%;
+    float: left;
+}
+
+#formulario {
+    width: 30%;
+    float: left;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 8px;
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+
+}
+
+
+
+
+
